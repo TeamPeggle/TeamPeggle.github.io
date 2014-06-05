@@ -1,0 +1,36 @@
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes spin {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(360deg); }
+}
+
+#background-container img {
+	animation-name: spin;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 30000ms;
+
+	-webkit-animation-name: spin;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 30000ms;
+
+	-moz-animation-name: spin;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 30000ms;
+
+	-ms-animation-name: spin;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	-ms-animation-duration: 30000ms;
+}

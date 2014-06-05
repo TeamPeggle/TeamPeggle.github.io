@@ -1,0 +1,12 @@
+name: "[Team Peggle]"
+
+markdown: kramdown
+
+kramdown:
+    input: GFM
+
+markdown_ext:  markdown,md
+
+contact:
+    steam: "http://steamcommunity.com/groups/TEAMPEGGLE"
+    email: "badmin@teampeggle.com"
