@@ -1,9 +1,6 @@
 name: "Team Peggle"
 
-markdown: kramdown
-
-kramdown:
-    input: GFM
+markdown: redcarpet
 
 markdown_ext:  markdown,md
 
