@@ -4,7 +4,7 @@ title: [TEAM PEGGLE]
 ---
 
 ### Chat
-* [#PPP on SynIRC](irc://irc.synirc.net/ppp)
+* [#PPP on SynIRC](irc://irc.synirc.net/ppp) ([Web Client](/irc/))
 
 ### Steam Group
 * [Team Peggle on Steam]({{ site.contact.steam }})
