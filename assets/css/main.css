@@ -45,3 +45,7 @@ a {
 	border: 6px solid #333;
 	border-top: 0px;
 }
+
+audio:not([controls]) {
+	display: none;
+}
