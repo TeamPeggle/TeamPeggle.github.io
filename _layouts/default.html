@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>[{{ site.name }}]</title>
+		<title>
+			{% if page.title %}
+				~{{ page.title }}~
+			{% endif %}
+			[{{ site.name }}]
+		</title>
 		<link href="/assets/css/main.css" rel="stylesheet" type="text/css">
 		<link href="/assets/css/rotate_peggle.css" rel="stylesheet" type="text/css">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
