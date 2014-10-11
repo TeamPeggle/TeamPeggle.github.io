@@ -46,6 +46,14 @@ a {
 	border-top: 0px;
 }
 
+hr {
+	border: 0;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	margin: 3em 0;
+}
+
 audio:not([controls]) {
 	display: none;
 }
