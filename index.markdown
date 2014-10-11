@@ -18,7 +18,7 @@ layout: default
 Questions or problems?
 [Email us!](mailto:{{ site.contact.email }}?Subject=A%20CHALLENGER%20APPEARS!)
 
-<audio autoplay>
+<audio autoplay id="audio-intro">
 	<source src="/assets/media/teamPegglePresents.mp3" type="audio/mpeg">
 	Your browser does not support this audio format.
 </audio>
