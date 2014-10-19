@@ -33,13 +33,19 @@
 		};
 
 		Array.prototype.forEach.call(quoteContainers, function(each) {
-			var quote = data[Math.floor(Math.random()*data.length)];
+			var showMeQuotes = function() {
+				var quote = data[Math.floor(Math.random()*data.length)];
 
-			var escapedQuote = quote.replace(/[&<>"'\/]/g, function (s) {
-				return entityMap[s];
-			});
+				var escapedQuote = quote.replace(/[&<>"'\/]/g, function (s) {
+					return entityMap[s];
+				});
 
-			each.innerHTML = escapedQuote;
+				each.innerHTML = escapedQuote;
+			};
+
+			showMeQuotes();
+
+			setInterval(showMeQuotes, 4000);
 		});
 	});
 })(document);
