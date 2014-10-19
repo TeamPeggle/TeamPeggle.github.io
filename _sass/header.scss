@@ -1,0 +1,59 @@
+@import url(//fonts.googleapis.com/css?family=Delius+Unicase:700,400);
+
+$logo-color: #F9F;
+$logo-stroke: #333;
+
+$logo-stroke-size: 4px;
+$subtitle-stroke-size: 1px;
+
+.site-header {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+	.brand-title, .brand-subtitle {
+		font-family: 'Delius Unicase', cursive;
+
+		font-weight: bold;
+
+		color: $logo-color;
+
+		margin: 0;
+	}
+
+	.brand-title {
+		font-size: 43px;
+
+		-webkit-text-stroke: $logo-stroke-size $logo-stroke;
+
+		text-shadow:
+			$logo-stroke-size      0px                    0 $logo-stroke,
+			$logo-stroke-size * -1 0px                    0 $logo-stroke,
+			0px                    $logo-stroke-size      0 $logo-stroke,
+			0px                    $logo-stroke-size * -1 0 $logo-stroke,
+
+			$logo-stroke-size      $logo-stroke-size      0 $logo-stroke,
+			$logo-stroke-size * -1 $logo-stroke-size * -1 0 $logo-stroke,
+			$logo-stroke-size      $logo-stroke-size * -1 0 $logo-stroke,
+			$logo-stroke-size * -1 $logo-stroke-size      0 $logo-stroke;
+	}
+
+	.brand-subtitle {
+		font-size: 16px;
+
+		margin-top: 0;
+
+		-webkit-text-stroke: $logo-stroke-size $logo-stroke;
+
+		text-shadow:
+			$subtitle-stroke-size      0px                       0 $logo-stroke,
+			$subtitle-stroke-size * -1 0px                        0 $logo-stroke,
+			0px                        $subtitle-stroke-size      0 $logo-stroke,
+			0px                        $subtitle-stroke-size * -1 0 $logo-stroke,
+
+			$subtitle-stroke-size      $subtitle-stroke-size      0 $logo-stroke,
+			$subtitle-stroke-size * -1 $subtitle-stroke-size * -1 0 $logo-stroke,
+			$subtitle-stroke-size      $subtitle-stroke-size * -1 0 $logo-stroke,
+			$subtitle-stroke-size * -1 $subtitle-stroke-size      0 $logo-stroke;
+	}
+}
