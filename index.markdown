@@ -2,13 +2,13 @@
 layout: default
 ---
 
-### Chat
+#### Chat
 * [#PPP on SynIRC](irc://irc.synirc.net/ppp) ([Web Client](/irc/))
 
-### Steam Group
+#### Steam Group
 * [Team Peggle on Steam]({{ site.contact.steam }})
 
-### Servers
+#### Servers
 {% capture serversinclude %}{% include servers.md %}{% endcapture %}
 {{ serversinclude | markdownify }}
 
