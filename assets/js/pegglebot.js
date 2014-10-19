@@ -22,7 +22,7 @@
 		request.send(); 
 	}
 
-	fetchJSONFile('/pegglebot.json', function(data){
+	fetchJSONFile('/quotes.json', function(data){
 		var entityMap = {
 			"&": "&amp;",
 			"<": "&lt;",
