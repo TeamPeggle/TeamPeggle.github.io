@@ -13,7 +13,7 @@
 	to { -ms-transform: rotate(360deg); }
 }
 
-#background-container img {
+.rotate {
 	animation-name: spin;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
