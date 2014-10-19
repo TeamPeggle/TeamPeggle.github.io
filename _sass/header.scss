@@ -29,7 +29,7 @@ $subtitle-stroke-size: 1px;
 	.brand-title {
 		font-size: 43px;
 
-		-webkit-text-stroke: $logo-stroke-size $logo-stroke;
+//		-webkit-text-stroke: $logo-stroke-size $logo-stroke;
 
 		text-shadow:
 			$logo-stroke-size      0px                    0 $logo-stroke,
@@ -48,7 +48,7 @@ $subtitle-stroke-size: 1px;
 
 		margin-top: 0;
 
-		-webkit-text-stroke: $logo-stroke-size $logo-stroke;
+		//-webkit-text-stroke: $logo-stroke-size $logo-stroke;
 
 		text-shadow:
 			$subtitle-stroke-size      0px                       0 $logo-stroke,
