@@ -7,7 +7,7 @@ layout: default
 
 <ul>
 {% for quote in site.data.pegglebot %}
-	<li id="#{{ quote | slugify }}">
+	<li id="{{ quote | slugify }}">
 		<a href="#{{ quote | slugify }}">#</a>
 		{{ quote }}
 	</li>
