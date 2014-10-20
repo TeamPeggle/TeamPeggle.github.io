@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h1>
+	Musings of PeggleBot
+</h1>
+
+<ul>
+{% for quote in site.data.pegglebot %}
+	<li id="#{{ quote | slugify }}">
+		<a href="#{{ quote | slugify }}">#</a>
+		{{ quote }}
+	</li>
+{% endfor %}
+</ul>
+
+<hr />
+
+<a href="/" class="btn btn-default btn-lg">&laquo; Back</a>
