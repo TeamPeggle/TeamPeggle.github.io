@@ -45,7 +45,7 @@
 
 			showMeQuotes();
 
-			setInterval(showMeQuotes, 4000);
+			setInterval(showMeQuotes, 5000);
 		});
 	});
 })(document);
