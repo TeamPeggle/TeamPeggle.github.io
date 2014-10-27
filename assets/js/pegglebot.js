@@ -41,11 +41,11 @@
 				while(badwordsIndex > -1) {
 					var quote = data[Math.floor(Math.random()*data.length)];
 					badwordsIndex = quote.search(badwordsRegex);
-				)
+				}
 				var escapedQuote = quote.replace(/[&<>"'\/]/g, function (s) {
 					return entityMap[s];
 				});
-				}
+			
 				each.innerHTML = escapedQuote;
 			};
 
