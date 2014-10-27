@@ -1,6 +1,8 @@
 (function(d) {
 	var quoteContainers = d.getElementsByClassName('pegglebot-quotes');
-
+	var badwords = 'nigger|jew|beaner|cracker'
+	var badwordsRegex = new RegExp('\\b' + badwords + '\\b');
+	
 	if (!quoteContainers) {
 		return;
 	}
@@ -34,12 +36,16 @@
 
 		Array.prototype.forEach.call(quoteContainers, function(each) {
 			var showMeQuotes = function() {
-				var quote = data[Math.floor(Math.random()*data.length)];
-
+				var badwordsIndex = 0;
+				var quote = '';
+				while(badwordsIndex > -1) {
+					quote = data[Math.floor(Math.random()*data.length)];
+					badwordsIndex = quote.search(badwordsRegex);
+				}
 				var escapedQuote = quote.replace(/[&<>"'\/]/g, function (s) {
 					return entityMap[s];
 				});
-
+			
 				each.innerHTML = escapedQuote;
 			};
 
