@@ -39,7 +39,7 @@
 				var badwordsIndex = 0;
 				var quote = '';
 				while(badwordsIndex > -1) {
-					var quote = data[Math.floor(Math.random()*data.length)];
+					quote = data[Math.floor(Math.random()*data.length)];
 					badwordsIndex = quote.search(badwordsRegex);
 				}
 				var escapedQuote = quote.replace(/[&<>"'\/]/g, function (s) {
