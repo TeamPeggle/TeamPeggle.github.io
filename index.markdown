@@ -7,7 +7,9 @@ layout: default
 
 #### Servers
 {% capture serversinclude %}{% include servers.md %}{% endcapture %}
+<div class="servers">
 {{ serversinclude | markdownify }}
+</div>
 
 <audio autoplay id="audio-intro">
 	<source src="/assets/media/teamPegglePresents.mp3" type="audio/mpeg">
