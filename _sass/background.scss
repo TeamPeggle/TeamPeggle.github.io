@@ -1,9 +1,9 @@
 html, body {
-	backgrond-color: #333;
+	backgrond-color: $background-color;
 }
 
 #background-container {
-	background-color: #333;
+	background-color: $background-color;
 
 	position: fixed;
 	top: 0;

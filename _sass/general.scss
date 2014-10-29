@@ -1,5 +1,5 @@
 html, body {
-	font-size: 13px;
+	font-size: $font-size;
 }
 
 audio:not([controls]) {
@@ -7,15 +7,15 @@ audio:not([controls]) {
 }
 
 ::selection {
-	background: #FF99FF;
-	color: white;
+	background: $selected-text-background-color;
+	color: $selected-text-foreground-color;
 }
 
 ::-moz-selection {
-	background: #FF99FF;
-	color: white;
+	background: $selected-text-background-color;
+	color: $selected-text-foreground-color;
 }
 
 hr {
-	border-color: #333;
+	border-color: $horizontal-rule-color;
 }

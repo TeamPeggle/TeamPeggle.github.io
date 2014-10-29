@@ -1,10 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Delius+Unicase:700,400);
 
-$logo-color: #F9F;
-$logo-stroke: #333;
+$logo-color: $header-color;
+$logo-stroke: $header-stroke-color;
 
-$logo-stroke-size: 4px;
-$subtitle-stroke-size: 1px;
+$logo-stroke-size: $header-stroke-size;
+$subtitle-stroke-size: $header-stroke-size / 4;
 
 .site-header {
 	text-align: center;
@@ -25,10 +25,10 @@ $subtitle-stroke-size: 1px;
 	}
 
 	.brand-title {
-		font-size: 42pt;
+		font-size: $header-font-size;
 
-		@media (max-width: 768px) { 
-			font-size: 28pt;
+		@media (max-width: 768px) {
+			font-size: $header-font-size * 0.6;
 		}
 
 		text-shadow:

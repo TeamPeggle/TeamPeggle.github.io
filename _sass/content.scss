@@ -1,15 +1,16 @@
 #content {
-	padding: 20px;
-	background: rgba(255, 255, 255, 0.95);
+	padding: $content-padding-width;
 	border-radius: 5px;
-	border: 6px solid #333;
+	border: $content-border-width solid $content-border-color;
+	color: $content-foreground-color;
+	background-color: $content-background-color;
 
 	a, a:active, a:visited {
-		color: #FF99FF;
+		color: $link-color;
 		font-weight: bold;
 	}
 
 	a:hover {
-		color: #FFAAFF;
+		color: $link-hover-color;
 	}
 }

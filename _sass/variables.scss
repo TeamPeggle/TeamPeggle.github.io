@@ -1,0 +1,42 @@
+$brand-primary-color: #FF99FF;
+$light-color: #FFF;
+$dark-color: #333;
+
+
+$font-size: 14px;
+
+$horizontal-rule-color: $dark-color;
+
+$background-color: $dark-color;
+$link-color: $brand-primary-color;
+$link-hover-color: lighten($link-color, 5%);
+
+$selected-text-foreground-color: $light-color;
+$selected-text-background-color: $brand-primary-color;
+
+// Header
+$header-color: $brand-primary-color;
+$header-stroke-color: $dark-color;
+$header-stroke-size: 4px;
+$header-font-size: 42pt;
+
+// Content
+$content-foreground-color: $dark-color;
+$content-background-color: $light-color;
+$content-border-color: $dark-color;
+$content-border-width: 6px;
+$content-padding-width: 20px;
+
+// Contact buttons
+$contact-button-size: 60px;
+
+$contact-button-font-size: 30px;
+
+$contact-button-background-color: $dark-color;
+$contact-button-foreground-color: $light-color;
+$contact-button-border-color: $dark-color;
+$contact-button-border-width: 4px;
+
+$contact-button-hover-background-color: $contact-button-foreground-color;
+$contact-button-hover-foreground-color: $brand-primary-color;
+$contact-button-hover-border-color: $contact-button-hover-foreground-color;
