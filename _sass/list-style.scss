@@ -1,8 +1,13 @@
 ul {
 	list-style: none;
+	padding-left: 2em;
 }
 
 ul li:before {
 	content: "\2665";
+
+	margin-left: -1em;
+
 	padding-right: 0.5em;
+	width: 0.5em;
 }
