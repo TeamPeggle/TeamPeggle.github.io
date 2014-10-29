@@ -1,0 +1,21 @@
+html, body {
+	font-size: 13px;
+}
+
+audio:not([controls]) {
+	display: none;
+}
+
+::selection {
+	background: #FF99FF;
+	color: white;
+}
+
+::-moz-selection {
+	background: #FF99FF;
+	color: white;
+}
+
+hr {
+	border-color: #333;
+}

@@ -1,61 +1,6 @@
 ---
 ---
 
-html, body {
-	color: #333;
-	font-size: 13px;
-}
-
-a, a:active, a:visited {
-	color: #FF99FF;
-	font-weight: bold;
-}
-
-a:hover {
-	color: #FFAAFF;
-}
-
-::selection {
-	background: #FF99FF;
-	color: white;
-}
-
-::-moz-selection {
-	background: #FF99FF;
-	color: white;
-}
-
-#background-container {
-	background-color: #333;
-
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-}
-
-#content {
-	padding: 20px;
-	background: rgba(255, 255, 255, 0.95);
-	border-radius: 5px;
-	border: 6px solid #333;
-}
-
-li > p {
-	display: inline;
-	margin: 0;
-}
-
-hr {
-	border-color: #333;
-}
-
-audio:not([controls]) {
-	display: none;
-}
-
 @import 'rotate';
 
 @import 'list-style';
@@ -65,3 +10,9 @@ audio:not([controls]) {
 @import 'header';
 
 @import 'server-images';
+
+@import 'general';
+
+@import 'content';
+
+@import 'background';
