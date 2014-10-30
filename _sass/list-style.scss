@@ -3,12 +3,14 @@ ul {
 	padding-left: 2.5em;
 }
 
-ul li:before {
-	content: "\2665";
+ul li {
+	&:before {
+		content: "\2665";
 
-	margin-left: -1.5em;
+		margin-left: -1.5em;
 
-	float: left;
+		float: left;
+	}
 
 	& > p {
 		margin: 0;
