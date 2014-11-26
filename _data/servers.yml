@@ -22,3 +22,5 @@
   host: 69.61.63.241:27035
   type: gametracker
 
+- name: 'Trackmania: Team Peggle'
+  host: 'maniaplanet://#qjoin=peggleserver@TMStadium'
