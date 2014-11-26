@@ -5,7 +5,7 @@ layout: default
 #### Chat
 * [#PPP on SynIRC](irc://irc.synirc.net/ppp) ([Web Client](/irc/))
 
-#### Servers
+#### Servers <small>&mdash; [PPP Cycle](/assets/images/pppcycle.jpg)</small>
 {% capture serversinclude %}{% include servers.md %}{% endcapture %}
 <div class="servers">
 {{ serversinclude | markdownify }}
