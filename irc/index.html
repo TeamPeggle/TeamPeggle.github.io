@@ -18,20 +18,35 @@
 			}
 		</style>
 		<script type="text/javascript">
-			var url = "http://cgiirc.synirc.net/?chan=%23ppp&amp;Channel=%23ppp&amp;interface=mozilla&amp;Nickname=peggleguest`";
+			var createIRCIframe = function() {
+				var url = "http://cgiirc.synirc.net/?";
 
-			var char = "abcdefghijklmnopqrstuvwxyz";
+				var parameters = {
+					chan: "#ppp",
+					Channel: "#ppp",
+					interface: "mozilla",
+					Nickname: "peggleguest`"
+				};
 
-			for (var i = 0; i < 5; i++) {
-				url += char.charAt(Math.floor(Math.random() * char.length));
-			}
+				var char = "abcdefghijklmnopqrstuvwxyz";
 
-			document.write('<iframe scrolling="no" src="' + url + '"></iframe>');
+				for (var name in parameters) {
+					url += encodeURIComponent(name) + "=" + encodeURIComponent(parameters[name]) + "&amp;";
+				}
+
+				var iframe = d.createElement('iframe');
+				iframe.scrolling = "no";
+				iframe.src = url;
+
+				document.body.appendChild(iframe);
+			};
+
+			window.addEventListener("load", createIRCIframe, false);
 		</script>
 	</head>
 	<body>
 		<noscript>
-			<iframe scrolling="no" src="http://cgiirc.synirc.net/?chan=%23ppp"></iframe>
+			This page requires javascript.
 		</noscript>
 
 		<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-57393752-1', 'auto'); ga('send', 'pageview');</script>
