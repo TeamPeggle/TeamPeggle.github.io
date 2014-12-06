@@ -19,6 +19,12 @@
 		</style>
 		<script type="text/javascript">
 			var createIRCIframe = function() {
+				var isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent);
+
+				if (isBot) {
+					return;
+				}
+
 				var url = "http://cgiirc.synirc.net/?";
 
 				var parameters = {
