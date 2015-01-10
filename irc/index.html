@@ -42,7 +42,7 @@
 					url += encodeURIComponent(name) + "=" + encodeURIComponent(parameters[name]) + "&amp;";
 				}
 
-				var iframe = d.createElement('iframe');
+				var iframe = document.createElement('iframe');
 				iframe.scrolling = "no";
 				iframe.src = url;
 
