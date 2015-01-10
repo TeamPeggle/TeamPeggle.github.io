@@ -36,7 +36,14 @@
 					Nickname: "peggleguest`"
 				};
 
-				var char = "abcdefghijklmnopqrstuvwxyz";
+				var chars = "abcdefghijklmnopqrstuvwxyz";
+
+				for (var i = 0; i < 5; i++) {
+					parameters.Nickname += chars.charAt(
+						Math.floor(Math.random() * chars.length)
+					);
+				}
+
 
 				for (var name in parameters) {
 					url += encodeURIComponent(name) + "=" + encodeURIComponent(parameters[name]) + "&amp;";
