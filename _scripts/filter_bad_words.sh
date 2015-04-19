@@ -10,6 +10,7 @@ WORDLIST=$(curl -o - "$WORDLIST_FILE")
 WORDLIST="${WORDLIST}"$'\nimgur'
 WORDLIST="${WORDLIST}"$'\ndropbox'
 WORDLIST="${WORDLIST}"$'\ntumblr'
+WORDLIST="${WORDLIST}"$'\n.tell'
 
 SEARCH_LINES="$(cat $1)"
 
