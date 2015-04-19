@@ -62,4 +62,8 @@ $subtitle-stroke-size: $header-stroke-size / 4;
 			$subtitle-stroke-size      $subtitle-stroke-size * -1 0 $logo-stroke,
 			$subtitle-stroke-size * -1 $subtitle-stroke-size      0 $logo-stroke;
 	}
+
+	.pegglebot-name {
+		color: $logo-color;
+	}
 }
