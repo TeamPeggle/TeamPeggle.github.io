@@ -11,12 +11,6 @@ layout: default
 {{ serversinclude | markdownify }}
 </div>
 
-#### Find us elsewhere
-{% capture groupsinclude %}{% include groups.md %}{% endcapture %}
-<div class="groups">
-{{ groupsinclude | markdownify }}
-</div>
-
 <audio autoplay id="audio-intro">
 	<source src="/assets/media/teamPegglePresents.mp3" type="audio/mpeg">
 	Your browser does not support this audio format.
