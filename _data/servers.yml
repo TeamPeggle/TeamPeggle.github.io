@@ -8,21 +8,6 @@
   type: gametracker
   steam: true
 
-- name: Vanilla Server
-  host: 69.61.63.241:27020
-  type: gametracker
-  steam: true
-
-- name: Hats Server
-  host: 69.61.63.241:27015
-  type: gametracker
-  steam: true
-
-- name: Day Of Defeat
-  host: 69.61.63.241:27055
-  type: gametracker
-  steam: true
-
 - name: HL2 DM
   host: 69.61.63.241:27035
   type: gametracker
