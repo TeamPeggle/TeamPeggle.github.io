@@ -28,5 +28,10 @@
   type: gametracker
   steam: true
 
+- name: Teamspeak
+  host: 'ts3server://ts3.teampeggle.com?port=9987'
+  reg_id: 1054380
+  type: tsviewer
+
 - name: 'Trackmania: Team Peggle'
   host: 'maniaplanet://#qjoin=peggleserver@TMStadium'
