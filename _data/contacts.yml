@@ -1,3 +1,6 @@
+# These are the contact links that show up at the bottom of the default layout,
+# And found in the "contact-buttons" include.
+#
 # Icons are from fontawesome
 # Check them out here: http://fortawesome.github.io/Font-Awesome/icons/
 # Icons are prefixed with fa- so you only need to add the part after fa-, so in

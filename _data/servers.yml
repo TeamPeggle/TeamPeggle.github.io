@@ -1,3 +1,10 @@
+# The servers that show up in the server lists
+#
+# Available types currently:
+#   none, gametracker, tsviewer
+#
+# Steam flag means it prefixes the host with steam://connect/ or whatever it is.
+
 - name: Stupid Server
   host: 69.61.63.241:27016
   type: gametracker

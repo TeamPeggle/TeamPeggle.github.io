@@ -1,3 +1,10 @@
+# Pegglebot's quotes that show up in both the pegglebot quotes page
+# and at the top of the default layout.
+#
+# When updating these MAKE SURE YOU RUN THE FILTER BAD WORDS SCRIPT
+# If you don't crayze4swayze will flip out.
+# ../_scripts/filter_bad_words.sh pegglebot.yml > pegglebot.clean.yml
+
 - "/nick pudge"
 - " steam://connect/69.61.63.241:27025"
 - "bold"
