@@ -1,0 +1,29 @@
+# Icons are from fontawesome
+# Check them out here: http://fortawesome.github.io/Font-Awesome/icons/
+# Icons are prefixed with fa- so you only need to add the part after fa-, so in
+# the case of "fa-steam" (http://fortawesome.github.io/Font-Awesome/icon/steam/)
+# you add "steam"
+
+- url: "http://steamcommunity.com/groups/TEAMPEGGLE"
+  icon: "steam"
+  title: "Play some games"
+
+- url: "mailto:badmin@teampeggle.com?Subject=A%20CHALLENGER%20APPEARS!"
+  icon: "envelope"
+  title: "Send Hatemail"
+
+- url: "irc://irc.synirc.net/ppp"
+  icon: "comments"
+  title: "Talk to PeggleBot on IRC"
+
+- url: "http://forums.teampeggle.com"
+  icon: "meh-o"
+  title: "Flame on the Forums"
+
+- url: "ts3server://ts3.teampeggle.com?port=9987"
+  icon: "microphone"
+  title: "Scream on Teamspeak"
+
+- url: "http://www.twitch.tv/teampeggle"
+  icon: "twitch"
+  title: "Criticize our skillz on Twitch"
