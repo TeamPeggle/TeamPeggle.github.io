@@ -23,6 +23,7 @@
 - name: Minecraft
   host: 204.10.33.188:25565
   type: gametracker
+  steam: false
 
 - name: Teamspeak
   host: 'ts3server://ts3.teampeggle.com?port=9987'
