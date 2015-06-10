@@ -20,6 +20,10 @@
   type: gametracker
   steam: true
 
+- name: Minecraft
+  host: 204.10.33.188:25565
+  type: gametracker
+
 - name: Teamspeak
   host: 'ts3server://ts3.teampeggle.com?port=9987'
   reg_id: 1054380
