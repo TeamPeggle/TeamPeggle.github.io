@@ -56,6 +56,7 @@
 			agent.show();
 
 			setInterval(function() { if (!quotes) return; var quote = quotes[Math.floor(Math.random()*quotes.length)]; agent.speak(quote); }, 4000);
+			setInterval(function() { agent.animate(); }, 9000);
 		});
 	}
 })(document);
