@@ -48,6 +48,8 @@
 			};
 
 			showMeQuotes();
+
+			setInterval(showMeQuotes, 6000);
 		});
 	});
 
