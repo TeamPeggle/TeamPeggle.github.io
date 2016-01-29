@@ -5,6 +5,8 @@
 		return;
 	}
 
+	var quotes;
+
 	var fetchJSONFile = function (path, callback) {
 		var request = new XMLHttpRequest();
 
@@ -23,6 +25,8 @@
 	}
 
 	fetchJSONFile('/quotes.json', function(data){
+		quotes = data;
+
 		var entityMap = {
 			"&": "&amp;",
 			"<": "&lt;",
@@ -44,8 +48,14 @@
 			};
 
 			showMeQuotes();
-
-			setInterval(showMeQuotes, 4000);
 		});
 	});
+
+	if (clippy) {
+		clippy.load('Clippy', function(agent){
+			agent.show();
+
+			setInterval(function() { if (!quotes) return; var quote = quotes[Math.floor(Math.random()*quotes.length)]; agent.speak(quote); }, 4000);
+		});
+	}
 })(document);
