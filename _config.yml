@@ -1,7 +1,7 @@
 name: "Team Peggle"
 subtitle: "Straight up Pegglin"
 
-markdown: redcarpet
+markdown: kramdown
 
 markdown_ext:  markdown,md
 
