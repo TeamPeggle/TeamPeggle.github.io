@@ -23,9 +23,9 @@
   icon: "meh-o"
   title: "Flame on the Forums"
 
-- url: "ts3server://ts3.teampeggle.com?port=9987"
+- url: "/discord"
   icon: "microphone"
-  title: "Scream on Teamspeak"
+  title: "Scream on Discord"
 
 - url: "http://www.twitch.tv/teampeggle"
   icon: "twitch"
