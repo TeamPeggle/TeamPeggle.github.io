@@ -6,7 +6,6 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', {{ site.analytics_id | jsonify }}, 'auto');
-  ga('send', 'pageview');
-
+  ga('send',  { hitType: 'pageview', template: {{ page.path | jsonify}}, nerd: true });
 </script>
 {% endif %}
