@@ -57,8 +57,26 @@
 		clippy.load('Clippy', function(agent){
 			agent.show();
 
-			setInterval(function() { if (!quotes) return; var quote = quotes[Math.floor(Math.random()*quotes.length)]; agent.speak(quote); }, 4000);
-			setInterval(function() { agent.animate(); }, 9000);
+			var readyForMore = true;
+			var clippyPegglebot = function() {
+				if (!quotes || !readyForMore) {
+					return;
+				}
+
+				readyForMore = false;
+
+				agent.stop();
+
+				agent.animate();
+
+				agent.speak(quotes[Math.floor(Math.random()*quotes.length)]);
+
+				agent._addToQueue(function() { readyForMore = true; });
+			}
+
+			jQuery(agent._el)
+				.off([ 'click', 'dblclick', 'mousedown' ])
+				.on('click', clippyPegglebot);
 		});
 	}
 })(document);
