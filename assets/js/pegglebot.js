@@ -40,6 +40,10 @@
 			var showMeQuotes = function() {
 				var quote = data[Math.floor(Math.random()*data.length)];
 
+				if (responsiveVoice && responsiveVoice.speak) {
+					responsiveVoice.speak(quote, "Dutch Female");
+				}
+
 				var escapedQuote = quote.replace(/[&<>"'\/]/g, function (s) {
 					return entityMap[s];
 				});
