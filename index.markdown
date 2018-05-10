@@ -10,8 +10,3 @@ layout: default
 <div class="servers">
 {{ serversinclude | markdownify }}
 </div>
-
-<audio autoplay id="audio-intro">
-	<source src="/assets/media/teamPegglePresents.mp3" type="audio/mpeg">
-	Your browser does not support this audio format.
-</audio>
