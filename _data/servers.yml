@@ -4,32 +4,31 @@
 #   none, gametracker, tsviewer
 #
 # Steam flag means it prefixes the host with steam://connect/ or whatever it is.
-
-#- name: Stupid Server
+#
+#  name: Stupid Server
 #  host: 69.61.63.241:27016
 #  type: gametracker
 #  steam: true
 #
-#- name: Surf Server
+#  name: Surf Server
 #  host: 69.61.63.241:27025
 #  type: gametracker
 #  steam: true
 #
-#- name: HL2 DM
+#  name: HL2 DM
 #  host: 69.61.63.241:27035
 #  type: gametracker
 #  steam: true
 #
-#- name: Minecraft
+#  name: Minecraft
 #  host: 204.10.33.188:25565
 #  type: gametracker
 #  steam: false
 #
-#- name: Teamspeak
+#  name: Teamspeak
 #  host: 'ts3server://ts3.teampeggle.com?port=9987'
 #  reg_id: 1054380
 #  type: tsviewer
 #
-#- name: 'Trackmania: Team Peggle'
+#  name: 'Trackmania: Team Peggle'
 #  host: 'maniaplanet://#qjoin=peggleserver@TMStadium'
-#
