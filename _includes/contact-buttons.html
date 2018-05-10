@@ -3,7 +3,7 @@
 		<div class="row">
 			{% for contact in site.data.contacts %}
 				<div class="col-md-2 col-sm-2 col-xs-4">
-					<a class="contact-button" href="{{ contact.url }}" title="{{ contact.title }}">
+					<a class="contact-button" href="{{ contact.url }}" title="{{ contact.title }}" target="_blank">
 						<span class="fa fa-{{ contact.icon }}"></span>
 					</a>
 				</div>
