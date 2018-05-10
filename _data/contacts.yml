@@ -19,10 +19,10 @@
   icon: "comments"
   title: "Talk to PeggleBot on IRC"
 
-- url: "http://forums.teampeggle.com"
-  icon: "meh-o"
-  title: "Flame on the Forums"
-
+#- url: "http://forums.teampeggle.com"
+#  icon: "meh-o"
+#  title: "Flame on the Forums"
+#
 - url: "/discord"
   icon: "microphone"
   title: "Scream on Discord"
