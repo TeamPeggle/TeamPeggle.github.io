@@ -12,6 +12,12 @@ WORDLIST="${WORDLIST}"$'\ndropbox'
 WORDLIST="${WORDLIST}"$'\ntumblr'
 WORDLIST="${WORDLIST}"$'\n.tell'
 
+WORDLIST="${WORDLIST}"$'\n卐'
+WORDLIST="${WORDLIST}"$'\nhitler'
+WORDLIST="${WORDLIST}"$'\nseig heil'
+WORDLIST="${WORDLIST}"$'\nsieg heil'
+WORDLIST="${WORDLIST}"$'\n1488'
+
 SEARCH_LINES="$(cat $1)"
 
 for i in "$WORDLIST"; do
