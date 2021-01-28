@@ -3,6 +3,11 @@
 }
 
 .contact-buttons {
+	.row {
+		display: flex;
+		justify-content: center;
+	}
+
 	.contact-button {
 		color: $contact-button-foreground-color;
 		background-color: $contact-button-background-color;
