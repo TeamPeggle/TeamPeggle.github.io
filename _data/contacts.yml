@@ -11,10 +11,6 @@
   icon: "steam"
   title: "Play some games"
 
-- url: "mailto:badmin@teampeggle.com?Subject=A%20CHALLENGER%20APPEARS!"
-  icon: "envelope"
-  title: "Send Hatemail"
-
 - url: "irc://irc.synirc.net/ppp"
   icon: "comments"
   title: "Talk to PeggleBot on IRC"
