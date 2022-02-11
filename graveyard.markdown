@@ -12,6 +12,4 @@ Look, it's not just a game of the week it's a WAY OF LIFE.
 
 > &lt;PeggleBot&gt; obey the ppp cycle of fuckups
 
-<img src="/assets/images/pppcycle.jpg" alt="PPP Cycle" width="100%" />
-
 <img src="/assets/images/ghost.gif" alt="spoopy" width="100%" />
