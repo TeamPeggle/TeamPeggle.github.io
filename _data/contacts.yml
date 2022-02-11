@@ -11,10 +11,6 @@
   icon: "steam"
   title: "Play some games"
 
-- url: "irc://irc.synirc.net/ppp"
-  icon: "comments"
-  title: "Talk to PeggleBot on IRC"
-
 - url: "/discord"
   icon: "microphone"
   title: "Scream on Discord"
